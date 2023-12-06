@@ -502,4 +502,171 @@ GIT Commands:-
   572  git log
   573  git history
   574  history
+  504  cd GIT/
+  505  ls
+  506  pwd
+  507  echo "Sample Git File">>sample1.html
+  508  ls
+  509  vim sample1.html
+  510  git init
+  511  ls
+  512  ll
+  513  git add sample.txt
+  514  git version
+  515  git status
+  516  ls
+  517  git add sample1.html
+  518  git status
+  519  git commit -m "1st Commit"
+  520  git status
+  521  git log
+  522  git log --oneline
+  523  vim sample1.html
+  524  git status
+  525  git log 6c87308
+  526  git log --oneline 6c87308
+  527  git status
+  528  git stash
+  529  ls
+  530  git ststaus
+  531  git status
+  532  vim sample1.html
+  533  git status
+  534  git log --oneline
+  535  git add
+  536  git add .
+  537  git commit -m "2nd commit"
+  538  git log --oneline
+  539  git status
+  540  echo "add a new line">>sample1.html
+  541  git status
+  542  git add
+  543  git add sample1.html
+  544  git status
+  545  git diff
+  546  git diff --staged
+  547  git reset sample1.html
+  548  git diff --staged
+  549  git diff status
+  550  git status
+  551  git add sample1.html
+  552  git status
+  553  git diff --staged
+  554  git diff
+  555  git diff sample1.html
+  556  git log
+  557  git log --oneline
+  558  git show
+  559  git commit -m "2nd Commit"
+  560  git statud
+  561  git status
+  562  git log
+  563  git log --oneline
+  564  git diff
+  565  git diff --staged
+  566  git reset sample1.html
+  567  git status
+  568  git log
+  569  git log --oneline
+  570  git show
+  571  git status
+  572  git log
+  573  git history
+  574  history
+  575  clear
+  576  ls -a
+  577  cd .git/
+  578  ls
+  579  pwd
+  580  cd ..
+  581  cat sample1.html
+  582  vim sample2.txt
+  583  git status
+  584  ls
+  585  git add *.txt
+  586  git status
+  587  git restore --staged *.txt
+  588  git status
+  589  git add *.txt
+  590  git status
+  591  git commit -m "1st commit"
+  592  git status
+  593  git log --oneline
+  594  git log
+  595  clear
+  596  pwd
+  597  ls
+  598  cat sample2.txt
+  599  git log
+  600  git --stat
+  601  git -stat
+  602  git stat
+  603  git log
+  604  git log
+  605  git log --oneline
+  606  git log --stat
+  607  git log
+  608  ls
+  609  cat sample2.txt
+  610  echo "All contents on sample2 are replced">sample2.txt
+  611  git status
+  612  git config --user.name "tinu"
+  613  git config --global user.name "tinu"
+  614  git log
+  615  git status
+  616  git git add .
+  617  git add .
+  618  git commit -m "2nd commit on sample2"
+  619  cat sample2.txt
+  620  git log
+  621  git log --stat
+  622  git rm --cached sample2.txt
+  623  ls
+  624  git log
+  625  git status
+  626  git restore --staged sample.txt
+  627  git restore --staged sample2.txt
+  628  git status
+  629  git log --oneline
+  630  echo "Third sample file for git">> sample3.jsp
+  631  git config user.name "devops"
+  632  git status
+  633  git log
+  634  git add sample3.jsp
+  635  git status
+  636  git commit -m "1st commit"
+  637  git status
+  638  git log
+  639  git log --status -2
+  640  git log status -2
+  641  git log --stat -2
+  642  git log stat -2
+  643  git log stat
+  644  git log stat -1
+  645  git log --stat -1
+  646  git log --stat -1
+  647  git log
+  648  git diff
+  649  git diff sample3.jsp
+  650  git status
+  651  git diff --cached sample3.jsp
+  652  git status
+  653  git rm --cached sample3.jsp
+  654  git status
+  655  git commit -m "2nd commit"
+  656  git status
+  657  git log
+  658  git log --oneline
+  659  git status
+  660  git add sample3.jsp
+  661  git status
+  662  git rm --cached sample3.jsp
+  663  git status
+  664  git add sample3.jsp
+  665  git commit -m "3rd commit"
+  666  git log
+  667  git log --oneline
+  668  git show 7c41000
+  669  git log e806938
+  670  history
 
