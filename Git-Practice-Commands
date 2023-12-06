@@ -1,1 +1,505 @@
 Hellow from GIT
+========================
+GIT Commands:-
+========================
+  75  git merge feature1
+   76  ls
+   77  git log --oneline
+   78  git switch feature1
+   79  git log --oneline
+   80  git switch master
+   81  git log --oneline
+   82  git merge --squash feature1
+   83  git branch
+   84  git switch feature3
+   85  ls
+   86  git log --oneline
+   87  git rebase -i HEAD~2
+   88  git log --oneline
+   89  git switch master
+   90  git merge feature3
+   91  git log --oneline
+   92  git status
+   93  ls
+   94  git merge --squash feature3
+   95  git merge --squash feeature2
+   96  clear
+   97  git log
+   98  git config user.name"tinu"
+   99  git log
+  100  git log --oneline
+  101  ls
+  102  echo "rec1" >> cm4.txt
+  103  git add cm4,txt
+  104  git add cm4.txt
+  105  git commit
+  106  git status
+  107  git diff
+  108  echo "rec1" >> cm5.txt
+  109  git commit -a -m "New files added and commited"
+  110  git commit -a -m 'New files added and commited'
+  111  echo "rec1" >> cm6.txt
+  112  git commit -a -m 'New files added and commited'
+  113  git add .
+  114  git commit -m 'New files added and commited'
+  115  git rm cm5.txt
+  116  ls
+  117  git rm --cached cm6.txt
+  118  ls
+  119  git ls -a
+  120  git ls-a
+  121  git ls -a
+  122  git ls --a
+  123  ls -a
+  124  git status
+  125  git commit -m 'file cm5 deletedcommited'
+  126  git status
+  127  git commit -m 'file cm6 cached  deletedcommited'
+  128  git status
+  129  git add .
+  130  git commit -m 'file cm6  added and commited'
+  131  git status
+  132  git log --oneline
+  133  clear
+  134  cd ..
+  135  ls -a
+  136  mkdir project1
+  137  cd project1
+  138  ls -a
+  139  git clone https://github.com/malya88/test-project1.git
+  140  ls
+  141  cd test-project1/
+  142  ls -a
+  143  git status
+  144  git remote -v
+  145  git log --oneline
+  146  git switch -c localfeature1
+  147  git branch
+  148  ls -a
+  149  echo "Incremental changes added to test-project1" >> file2.txt
+  150  ls -a
+  151  git status
+  152  git add .
+  153  git commit -m "commit changes to file2.txt"
+  154  git status
+  155  git log --oneline
+  156  git push -u origin localfeature1
+  157  git push -u origin localfeature1
+  158  git switch master
+  159  ls -a
+  160  git status
+  161  git branch
+  162  git switch localfeature1
+  163  ls
+  164  git clone https://github.com/malya88/test-project1.git
+  165  ls
+  166  git remote -v
+  167  git remote remove origin
+  168  ls
+  169  git remote -v
+  170  git switch master
+  171  git remote -v
+  172  ls
+  173  git switch localfeature1
+  174  ls -a
+  175  git remote -v
+  176  git pull
+  177  git pull remote origin
+  178  git rm test-project1/
+  179  git rm test-project1
+  180  rm test-project1
+  181  git switch master
+  182  ls -a
+  183  git checkout -b localfeature2
+  184  ls -a
+  185  echo "rec1">> file2.txt
+  186  git add .
+  187  git rm --cached test-project1
+  188  git rm -f --cached test-project1
+  189  ls -a
+  190  git clone https://github.com/malya88/test-project1.git
+  191  cd ..
+  192  cd ..
+  193  mkdir project2
+  194  cd project2
+  195  git clone https://github.com/malya88/test-project1.git
+  196  ls -a
+  197  git branch
+  198  git status
+  199  git init
+  200  git status
+  201  git branch
+  202  git log --oneline
+  203  git remote -v
+  204  echo "rec4">>file4.txt
+  205  git add .
+  206  git help submodule
+  207  git-rm 1
+  208  git-rm1
+  209  git -rm1
+  210  git -rm
+  211  git checkout --force
+  212  cd ..
+  213  cd project1
+  214  ls -a
+  215  cd test-project1/
+  216  ls -a
+  217  git checkout --force
+  218  ls -a
+  219  cd ..
+  220  cd ..
+  221  cd project2
+  222  ls -a
+  223  git add .
+  224  git commit "first commit in branch master"
+  225  git commit -m "first commit in branch master"
+  226  ls -a
+  227  cd test-project1
+  228  ls -a
+  229  cd ..
+  230  ls -a
+  231  git status
+  232  git --oneline
+  233  git log --oneline
+  234  git remote -v
+  235  cd test-project1
+  236  ls -a
+  237  echo "rec1">>file4.txt
+  238  git add .
+  239  git commit -m "first commit in branch master"
+  240  ls -a
+  241  git status
+  242  git push -u origin main
+  243  clear
+  244  git ls -a
+  245  ls -a
+  246  git checkout -b localfeature5
+  247  git fetch
+  248  git
+  249  ls -a
+  250  git switch main
+  251  git switch master
+  252  git switch  branch master
+  253  ls -a
+  254  git switch localfeature5
+  255  git pull
+  256  ls -a
+  257  git switch main
+  258  git status
+  259  git pull
+  260  ls -a
+  261  git log --oneline
+  262  git switch localfeature5
+  263  ls -a
+  264  git switch main
+  265  git switch localfeature4
+  266  git chechkout -b localfeature4
+  267  git checkout -b localfeature4
+  268  ls -a
+  269  echo "rec2">> file6.txt
+  270  git add .
+  271  git commit -m "commit in localfeature4 branch"
+  272  git push -u origin localfeature4
+  273  git remote -v
+  274  git fetch
+  275  exit
+  276  cd C:\TINU\DevOps\New folder
+  277  cd c:
+  278  cd TINU
+  279  cd DevOps/
+  280  cd New folder
+  281  cd Newfolder
+  282  ls
+  283  clear
+  284  cd Assignments
+  285  cd sample-project\ \(1\).zip
+  286  cd sample-project1/
+  287  ls -a
+  288  ls -a
+  289  git init
+  290  cd sample-project/
+  291  cd ..
+  292  git add .
+  293  git comm
+  294  git status
+  295  git log --oneline
+  296  git commit -m "Commit on branch master for codebase sample-project"
+  297  ls -a
+  298  git status
+  299  git log --oneline
+  300  git switch -c new-feature1
+  301  ls -a
+  302  cd sample-project/
+  303  ls -a
+  304  echo "Details of code base sample project" >> README.txt
+  305  git add .
+  306  git commit -m "First commit for Reademe.txt on branch new-feature1"
+  307  git status
+  308  ls
+  309  git log --oneline
+  310  git switch master
+  311  git merge new-feature1
+  312  ls -a
+  313  git remote add origin https://github.com/malya88/Aperture_Technology.co.git
+  314  git remote -v
+  315  git push -u origin master
+  316  ls -a
+  317  exit
+  318  ls -a
+  319  cd c:
+  320  cd DevOps
+  321  cd TINU
+  322  cd DevOps/
+  323  ls
+  324  cd Assignments
+  325  ls
+  326  cd git-assig-2-
+  327  ls
+  328  cd ,,
+  329  cd ,,
+  330  cd ..
+  331  cd ..
+  332  cd assignment
+  333  ls
+  334  cd ..
+  335  cd Assignment
+  336  ls
+  337  cd ..
+  338  cd assignments
+  339  ls
+  340  cd git-assig-2-
+  341  ls
+  342  cd sample-project\ \(1\)/
+  343  cd ..
+  344  ls
+  345  ls
+  346  cd sample-project/
+  347  ls
+  348  ls -a
+  349  cd sample-project2/
+  350  ls
+  351  vi index.html
+  352  cd ..
+  353  git init
+  354  git status
+  355  git add .
+  356  git commit -m "Commit for sample-project2 on branch master"
+  357  ls -a
+  358  git status
+  359  git log --oneline
+  360  git switch -c loc-feature1
+  361  git switch master
+  362  git switch -c loc-feature2
+  363  git branch
+  364  ls
+  365  git status
+  366  cd sample-project2/
+  367  ls -a
+  368  vi index.html
+  369  ls -a
+  370  git status
+  371  git add .
+  372  git commit -m "Incremental changes to be commited on index.html for sample-project2"
+  373  git status
+  374  git switch master
+  375  ls -a
+  376  git status
+  377  git switch loc-feature1
+  378  vi index.html
+  379  git checkout -b loc-feature2
+  380  git switch loc-feature2
+  381  vi index.html
+  382  git switch loc-feature1
+  383  ls -a
+  384  vi index.html
+  385  git switch master
+  386  git merge loc-feature2
+  387  git status
+  388  git switch loc-feature1
+  389  vi index.html
+  390  vi index.html
+  391  git status
+  392  git add .
+  393  git commit -m "Commit from loc-feature2 branch for sample-project2 in index.html"
+  394  git status
+  395  git switch master
+  396  cd ..
+  397  git config --global merge.tool kdiff3
+  398  kdiff3 --version
+  399  cd ..
+  400  cd ..
+  401  cd ..
+  402  cd ..
+  403  sudo apt-get update
+  404  apt-get update
+  405  apt install get kdiff3
+  406  pkg install get kdiff3
+  407  package install get kdiff3
+  408  git --version
+  409  apt install kdiff3
+  410  kdiff3 --version
+  411  git config --global merge.tool kdiff3
+  412  kdiff3 --version
+  413  KDiff --version
+  414  git mergetool
+  415  cd DevOps/
+  416  ls
+  417  cd Assignments
+  418  ls
+  419  cd git-assig-2-
+  420  ls
+  421  cd sample-project/
+  422  cd sample-project2/
+  423  git mergetool
+  424  git merge loc-feature2
+  425  git merge loc-feature1
+  426  git config --global merge.tool kdiff3
+  427  git mergetool
+  428  cd TINU
+  429  cd Desktop/
+  430  cd pwd
+  431  cd ..
+  432  cd c:
+  433  cd Desktop
+  434  cd C:\TINU\DevOps\Assignments\git-assig-2-
+  435  cd TINU
+  436  cd DevOps/
+  437  cd Assignments
+  438  cd git-assig-2-
+  439  ls
+  440  cd sample-project/
+  441  ls
+  442  ls
+  443  cd sample-project
+  444  merge tool
+  445  git mergetool
+  446  commit -a -m "resolved merge conflict"
+  447  git commit -a -m "resolved merge conflict"
+  448  git branch
+  449  git merge loc-feature2
+  450  git branch --merged
+  451  git merge loc-feature2
+  452  git sttaus
+  453  git status
+  454  git add .
+  455  git status
+  456  git commit -a -m "resolved merge conflict"
+  457  git status
+  458  git log --oneline
+  459  ls
+  460  git branch
+  461  git master
+  462  git switch master
+  463  git merge loc-feature2
+  464  git switch loc-feature2
+  465  ls -a
+  466  cd sample-project2/
+  467  ls -a
+  468  vi index.html
+  469  vi index.html
+  470  clear
+  471  git switch master
+  472  clear
+  473  git add .
+  474  git commit -m "Commit on loc-feature2 branch"
+  475  git status
+  476  git switch master
+  477  git merge loc-feature2
+  478  git status
+  479  cat index.html
+  480  wq
+  481  clear
+  482  vi index.html
+  483  vi index.html
+  484  git merge loc-feature2
+  485  git status
+  486  git add .
+  487  git commit -a -m "resolved merge conflict"
+  488  clear
+  489  cd ..
+  490  cd ..
+  491  exit
+  492  git config --global --get http.proxy
+  493  git config --global --unset http.proxy
+  494  git config --global --get https.proxy
+  495  git config --global --unset https.proxy
+  496  git config --global http.proxy socks5h://127.0.0.1:9150
+  497  git --version
+  498  git config --global --unset-all remote.origin.proxy
+  499  git --version
+  500  ls
+  501  cd Desktop/
+  502  ls
+  503  mkdir GIT
+  504  cd GIT/
+  505  ls
+  506  pwd
+  507  echo "Sample Git File">>sample1.html
+  508  ls
+  509  vim sample1.html
+  510  git init
+  511  ls
+  512  ll
+  513  git add sample.txt
+  514  git version
+  515  git status
+  516  ls
+  517  git add sample1.html
+  518  git status
+  519  git commit -m "1st Commit"
+  520  git status
+  521  git log
+  522  git log --oneline
+  523  vim sample1.html
+  524  git status
+  525  git log 6c87308
+  526  git log --oneline 6c87308
+  527  git status
+  528  git stash
+  529  ls
+  530  git ststaus
+  531  git status
+  532  vim sample1.html
+  533  git status
+  534  git log --oneline
+  535  git add
+  536  git add .
+  537  git commit -m "2nd commit"
+  538  git log --oneline
+  539  git status
+  540  echo "add a new line">>sample1.html
+  541  git status
+  542  git add
+  543  git add sample1.html
+  544  git status
+  545  git diff
+  546  git diff --staged
+  547  git reset sample1.html
+  548  git diff --staged
+  549  git diff status
+  550  git status
+  551  git add sample1.html
+  552  git status
+  553  git diff --staged
+  554  git diff
+  555  git diff sample1.html
+  556  git log
+  557  git log --oneline
+  558  git show
+  559  git commit -m "2nd Commit"
+  560  git statud
+  561  git status
+  562  git log
+  563  git log --oneline
+  564  git diff
+  565  git diff --staged
+  566  git reset sample1.html
+  567  git status
+  568  git log
+  569  git log --oneline
+  570  git show
+  571  git status
+  572  git log
+  573  git history
+  574  history
+
